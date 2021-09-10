@@ -1,0 +1,59 @@
+*#title {
+        color:forestgreen;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position:relative;
+        margin-left: 7;
+        top: 20%  }
+
+
+
+#subtitle{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: crimson;
+    margin-left: 4%;
+    margin-top: 4mm;
+    
+    }
+
+fieldset {
+    border: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 36;
+    margin-top: 2;
+    justify-content: top;
+}
+
+input, select, textarea, c {
+    border-radius: 5px;
+}
+
+.b {
+    margin-bottom: 1mm;
+}
+
+.label b {
+    margin-bottom: 0.2mm;
+    display: block;
+}
+
+fieldset grupo b {
+    float: left;
+    margin-right: 1mm;
+}
+
+.b input[type="text"], .b input[type="email"], .b select, .b textarea {
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display:inline;}
+
+.campo select option {
+        padding-right: 1em;
+    }
+
+.d{
+    color: crimson;
+    margin-top: 15;
+}

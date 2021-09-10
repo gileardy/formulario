@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="formularios.css">
+    <title>Registro de Usuário</title>
+</head>
+
+<body>
+    
+    <div class="a">
+        <form action="https://requestecho.herokuapp.com" method="POST"</form>
+        <h1 id="title">Cadastro</h1>
+        <p id="subtitle">Registre seu nome de Usuário, Senha e Email</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="b">
+            <div class="b">
+                <label for="usuário">Usuário</label>
+                <input type="text" name="usuário" id="usuário" required>
+            </div>
+
+            <div class="b">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" required>
+            </div>
+
+            <div class="b">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="b">
+                <label>Em qual categoria de leitor você se encaixa?</label>
+            <label>
+                <input type="radio" name="categoria" value="Iniciante" checked>Iniciante
+            </label>
+
+            <label>
+                <input type="radio" name="categoria" value="Frequente">Frequente
+            </label>
+
+            <label>
+                <input type="radio" name="categoria" value="Assíduo">Assíduo
+            </label>
+            </div>
+
+            <div class="b">
+                <label for="faixa etária"></label>
+                <select id="faixa etária" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>Adolescente</option>
+                  <option>Jovem Adulto</option>
+                  <option>Adulto</option>
+                </select>
+            </div>
+
+            <fieldset class="a"></fieldset>
+            <div class="b">
+                    <label>Selecione os Gêneros Literários que costuma ler:</label><br>
+                    <input type="checkbox" id="aventura" name="genero" value="Aventura">
+                    <label for="aventura"> Aventura</label>
+                    <input type="checkbox" id="drama" name="drama" value="Drama">
+                    <label for="drama"> Drama</label>
+                    <input type="checkbox" id="fantasia" name="fantasia" value="Fantasia">
+                    <label for="fantasia"> Fantasia</label>
+                    <input type="checkbox" id="romance" name="romance" value="Romance">
+                    <label for="romance"> Romance</label>
+                    <input type="checkbox" id="suspense" name="suspense" value="Suspense">
+                    <label for="suspense"> Suspense</label>
+                    <input type="checkbox" id="ficção científica" name="ficção científica" value="Ficção Científica">
+                    <label for="ficção científica"> Ficção Científica</label>
+            </div>
+        </fieldset>
+        <div class="b">
+            <br>
+            <label class="d">Como começou no mundo da literatura?</label>
+            <textarea style="width: 26cm;": id="começo"  rows="1"></textarea>
+        </div>
+
+        <button class="c" type="submit"> Enviar </button>
+    </form>
+    
+</body>
+</html>
